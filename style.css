@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#fefee3;
+}
+body{
+    text-align: center;
+}
+h2{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    color: dodgerblue;
+    font-size: 8vmin;
+    box-shadow: 2px 2px 4px rgb(28, 208, 130);
+    border: none;
+    border-radius: 1rem;
+}
+#resetBtn{
+    font-size: 1.25rem;
+    color: dodgerblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+#newBtn{
+    font-size: 1.25rem;
+    color: dodgerblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+#msg{
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+    /* background-color: green; */
+    padding: 10px;
+}
+.hide{
+    display: none;
+}
+
+
